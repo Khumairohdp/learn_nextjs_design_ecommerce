@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Slide from "./Slide";
 
 const Banner = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
