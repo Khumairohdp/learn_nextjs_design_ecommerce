@@ -79,9 +79,9 @@ const ProductCard: React.FC<productProps> = ({
         <Image
           className="w-full h-auto"
           src={img}
+          alt={title}
           width={200}
           height={300}
-          alt={title}
         />
       </div>
 
